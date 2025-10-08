@@ -1,4 +1,6 @@
-# Arquivos JAR
+# Pasta com ferramentas externas
+tools/
+
+# Arquivos .jar
 *.jar
 
-#alteração só pq sim

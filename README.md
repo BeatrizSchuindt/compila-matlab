@@ -1,2 +1,7 @@
-# compila-matlab
-Esse repositório contém alguns testes e a implementação de uma gramática mais simples derivada da linguagem Matlab, usando Python e ANTLR4 para execução.
+## Pré-requisitos
+
+Para gerar o parser, é necessário ter o ANTLR v4.
+
+1.  Faça o download do arquivo `antlr-4.x.x-complete.jar` no [site oficial do ANTLR](https://www.antlr.org/download.html).
+2.  Crie uma pasta `tools` na raiz do projeto e coloque o arquivo `.jar` dentro dela.
+3.  Adicione a pasta `tools` ao seu arquivo `.gitignore` para que o `.jar` não seja enviado ao repositório.
