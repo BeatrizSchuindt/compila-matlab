@@ -1,6 +1,10 @@
 # Pasta com ferramentas externas
 tools/
 
+# Ignorar a venv criada (máquina virtual do python)
+.venv/
+
 # Arquivos .jar
 *.jar
 
+__pycache__/
