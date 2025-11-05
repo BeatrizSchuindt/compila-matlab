@@ -4,3 +4,4 @@ tools/
 # Arquivos .jar
 *.jar
 
+__pycache__/
