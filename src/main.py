@@ -76,11 +76,12 @@ def main():
 
     # Gera a visualização da árvore
     png_out = render_tree_png(tree, parser, png_path)
-    print(f"✅ Árvore sintática gerada: {png_out}")
+    print("Tudo certo! Arquivo compilado.")
+    print(f"Árvore sintática gerada: {png_out}")
 
     try:
         svg_out = render_tree_svg(tree, parser, svg_path)
-        print(f"✅ Versão vetorial: {svg_out}")
+        print(f"Versão vetorial: {svg_out}")
     except Exception:
         # Geração SVG é opcional (pode falhar se o Graphviz não suportar SVG)
         pass
